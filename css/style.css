@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    background-color: bisque;
+}
+.navbar-sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px;
+    background-color: tomato;
+	height:70px
+}
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+.navbar-logo img{
+    padding: 5px 0px;
+}
+.navbar-logo p{
+    padding-left: 1.8rem;
+}
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+}
+.nav-list li{
+    display: flex;
+    align-items: stretch;
+    
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+.nav-list li:hover{
+   background-color: yellow;
+   transition: background-color 0.6s ease-in;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 75%;
+    border-radius: 10px;
+    font-size: 22px;
+}
+th, td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.form-design{
+    width: 90%;
+    margin: auto;   
+    margin: 50px 0px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.form-group label{
+    display: inline-block;
+    width:10%;
+}
+.form-group input{
+    width: 20%;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.form-group input[type='submit']{
+    background-color: brown;
+    color: bisque;
+    font-weight: 700;
+    border: 0;
+    width: 140px;
+}
+
+
+.show-data{
+    text-align: center;
+}
+.show-data p span{
+    font-size: 18px;
+    font-weight: 800;
+}
